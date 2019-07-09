@@ -58,7 +58,7 @@ FOR I = 1 TO 1000000
 NEXT I
 SLEEP
 
-' Distance formula to
+' Distance formula
 FUNCTION distance (x1%, y1%, x2%, y2%)
     distance = SQR((x2% - x1%) ^ 2 + (y2% - y1%) ^ 2)
 END FUNCTION
